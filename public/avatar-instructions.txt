@@ -1,0 +1,29 @@
+HOW TO ADD YOUR AVATAR VIDEO
+==============================
+
+1. Record or export your video:
+   - Stand against a DARK/BLACK background (easiest to blend)
+   - OR use a green screen and remove bg using tools like:
+     • remove.bg (free)
+     • Unscreen.com (for videos)
+     • CapCut "remove background" feature (free, mobile)
+   - Crop to show head + shoulders + body (portrait orientation)
+
+2. Name it exactly: avatar.mp4
+
+3. Place it in the /public/ folder:
+   manasi-portfolio/public/avatar.mp4
+
+4. Restart dev server — it will appear automatically on the right side.
+
+TIPS:
+- Video with transparent background (.webm with alpha) looks BEST
+- If using .mp4 with dark bg, the "mix-blend-mode: lighten" CSS
+  will make the dark background disappear automatically
+- Keep video looped, no audio needed
+- Ideal resolution: 720x1080 (portrait) or 1080x1920
+
+For transparent WebM export:
+- Use DaVinci Resolve (free) → export as WebM with Alpha
+- Or use Adobe After Effects → Media Encoder → WebM
+- Change src="/avatar.mp4" to src="/avatar.webm" in Hero.tsx
