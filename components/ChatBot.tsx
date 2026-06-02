@@ -96,10 +96,7 @@ const KB: { patterns: RegExp[]; answer: string }[] = [
     answer: "📧 **Email Manasi:**\n[choudharimanasi01@gmail.com](mailto:choudharimanasi01@gmail.com)\n\nShe's open to research collaborations, internships, and building things that matter!",
   },
   // Contact — phone
-  {
-    patterns: [/phone|call|number|mobile|whatsapp/i],
-    answer: "📞 **Phone / WhatsApp:**\n+91 77418 83030\n\nFeel free to reach out for collaborations or opportunities!",
-  },
+  
   // Contact — LinkedIn
   {
     patterns: [/linkedin|professional.*network|connect.*linkedin/i],
