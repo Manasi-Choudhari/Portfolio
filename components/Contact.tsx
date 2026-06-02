@@ -81,7 +81,7 @@ export default function Contact() {
             {[
               { label: 'LinkedIn', icon: 'in', href: 'https://www.linkedin.com/in/manasi-choudhari-887b1428a/' },
               { label: 'GitHub', icon: '</>', href: 'https://github.com/Manasi-Choudhari' },
-              { label: 'Phone', icon: '☎', href: 'tel:+917741883030' },
+              { label: 'Phone', icon: '☎', href: '#' },
             ].map((link) => (
               <a
                 key={link.label}
